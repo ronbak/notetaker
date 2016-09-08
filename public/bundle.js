@@ -3323,7 +3323,7 @@
 	  topProgress: 'progress',
 	  topRateChange: 'ratechange',
 	  topScroll: 'scroll',
-	  topSeeked: 'seeked',
+	  topSeeked: 'sought',
 	  topSeeking: 'seeking',
 	  topSelectionChange: 'selectionchange',
 	  topStalled: 'stalled',
@@ -11000,7 +11000,7 @@
 	  topPlaying: 'playing',
 	  topProgress: 'progress',
 	  topRateChange: 'ratechange',
-	  topSeeked: 'seeked',
+	  topSeeked: 'sought',
 	  topSeeking: 'seeking',
 	  topStalled: 'stalled',
 	  topSuspend: 'suspend',
@@ -17236,7 +17236,7 @@
 	      captured: keyOf({ onScrollCapture: true })
 	    }
 	  },
-	  seeked: {
+	  sought: {
 	    phasedRegistrationNames: {
 	      bubbled: keyOf({ onSeeked: true }),
 	      captured: keyOf({ onSeekedCapture: true })
@@ -17361,7 +17361,7 @@
 	  topRateChange: eventTypes.rateChange,
 	  topReset: eventTypes.reset,
 	  topScroll: eventTypes.scroll,
-	  topSeeked: eventTypes.seeked,
+	  topSeeked: eventTypes.sought,
 	  topSeeking: eventTypes.seeking,
 	  topStalled: eventTypes.stalled,
 	  topSubmit: eventTypes.submit,
